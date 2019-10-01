@@ -1,0 +1,44 @@
+h2{
+    color: #292929;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ul {
+    list-style-image: linear-gradient(#497DDD 0, #497DDD 50%, #FFB214 50%);
+    font-size: 50px;
+    
+ }
+
+/*Оформление всевозможных состояний ссылки*/
+
+a:link {
+  color: #292929;
+}
+a:visited {
+  color: #497DDD;
+}
+a:hover {
+  color: #FFB214; 
+  border-bottom: .07em solid;
+}
+a:active {
+  color: #497DDD; 
+  border-bottom: 1px dashed;
+}
+
+/* Оформление ссылки для бумажного носителя*/
+/*Выделение разными маркерами ссылки относящиеся к текущему домену и стороннему*/
+/*Выделение области на которую перешли по якорю*/
+
+a {
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none; /*убирает подчеркивание*/
+    text-transform: uppercase; /*слова прописными буквами*/
+    margin: 10px 15px;  /*внешний отступ элемента*/
+    padding: 10px 10px; /*внутренний отступ элемента*/
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s ease-in-out; /*переход медленно начинается и заканчивается*/
+}
