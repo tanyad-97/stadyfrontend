@@ -1,18 +1,20 @@
+.right{
+    text-align: right;
+}
 table {
+font-size: 15px;
    border: 1px solid #13c208;
-   text-align: center;
+   text-align: left;
    max-width: 70%;
+   font-family: 'Roboto Mono', monospace;
 }
 th {
-  font-weight: normal;
-  font-size: 13px;
+font-weight: normal;
   color: #039;
   text-transform: uppercase;
-  border-right: 1px solid #13c208;
-  border-top: 1px solid #13c208;
-  border-left: 1px solid #13c208;
+  border: 1px solid #13c208;
   border-bottom: 1px solid #fff;
-  padding: 20px;
+  padding:20px;
 }
 td {
   color: #669;
@@ -23,5 +25,20 @@ td {
 
 tr:hover td{
    background: rgba(194, 194, 242, 0.17);
+}
+caption{
+    color:#039;
+    text-transform: uppercase;
+    font-stretch:ultra-condensed;
+    padding: 20px;
+}
+.other{
+    border: 1px dashed #13c208;
+    border-top: 1px dashed #fff;
+    color:rgba(0, 51, 153, 0.46);
+
+}
+.footer{
+    border:1px solid #13c208;
 }
     
