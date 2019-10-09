@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    background: #f7f7f7;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+b{color: #d40808;}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1) ),url(bloom-1836315_1920.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro_title {
+    font-family: 'Raleway',sans-serif;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+
+.intro_suptitle {
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* Header */
+.header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* Nav */
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #c7c7c7;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #d40808;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover {
+    color: #fff;
+}
+
+.nav_link:hover:after,
+.nav_link.active:after {
+    opacity: 1;
+}
+
+.nav_link.active {
+    color: #fff;
+}
+
+
+
+/* Button */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    margin: 0 10px;
+    
+    background-color: #333;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn.active{
+    background-color: #d40808;
+}
+
+.btn:hover {
+    background-color: #d40808;
+}
+
+
