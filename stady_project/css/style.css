@@ -54,7 +54,7 @@ b{color: #d40808;}
     font-family: 'Raleway',sans-serif;
     color: #fff;
     font-size: 35px;
-    text-transform: uppercase;
+    text-transform:lowercase;
     line-height: 1;
     margin-bottom: 40px;
 }
@@ -171,3 +171,20 @@ b{color: #d40808;}
 }
 
 
+/*About*/
+
+.about_title {
+    font-family: 'Raleway',sans-serif;
+    color: #333;
+    font-size: 35px;
+    text-transform:lowercase;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+
+.about_suptitle {
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #fff;
+}
