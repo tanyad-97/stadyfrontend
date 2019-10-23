@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container__body__row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container__body__item {
+    padding: 2px;
+    position: relative;
+    width: 100%;
+}
+
+.container__body__item--width {}
+
+img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+
+}
